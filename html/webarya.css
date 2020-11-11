@@ -1,0 +1,152 @@
+body {
+	margin:0;
+}
+ 
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		
+ 
+.wrap {
+	width: 1032px;
+	margin:25px auto;
+}
+
+@font-face {
+	font-family: 'Roboto'; src: url(fonts/roboto/Roboto-Light.ttf);
+}
+
+.parallaxabout{
+	height: 500px;
+	background: linear-gradient(rgba(10, 9, 9, 0.9),rgba(10, 9, 9, 0.9)),url("images/nestle.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 250px;
+	color: white;
+	font-family: 'Roboto';
+}
+
+.parallax{
+	height: 150px;
+	background: linear-gradient(rgba(10, 9, 9, 0.9),rgba(10, 9, 9, 0.9)),url("images/nestlecompany.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 60px;
+	color: white;
+	font-family: 'Roboto';
+}
+
+ 
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:center;
+	padding:0;
+	margin:0 0 0;
+	background: rgba(10, 9, 9, 0.9);
+	position: fixed;
+	width: 100%;
+	
+}
+
+nav.menu ul li {
+	float:left;
+}
+ 
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+nav.menu ul a:hover {
+	background: rgb(80, 80, 80);
+}
+
+.about p{
+	text-align: justify;
+}
+
+.about img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+.blog {
+	float:left;
+}
+ 
+.content {
+	border-radius: 25px;
+	width:300px;
+	padding:15px;
+	margin:17px;
+	background: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+.content img {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+ 
+.content h2 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+}
+ 
+.content .continue {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+ 
+.content .continue:hover {
+	color: red;
+	margin-left:10px;
+}
+
+.wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@font-face{
+	font-family: 'Goldman'; src: url(fonts/goldman/Goldman-Regular.ttf);
+}
+
+.footer {
+	width: 100%;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: rgba(20, 20, 20, 0.9);
+	color: white;
+	text-align: center;
+	font-family: 'Goldman';
+}
+
+.footer h3 {
+	font-size: large;
+}
